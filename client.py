@@ -390,7 +390,7 @@ def main():
                                 info_label.grid(row=0,column=0)
                                 creatorWindow.after(5000, lambda: closeAllAndExit(creatorWindow))
                             return
-                        msg=f"ADD_QUESTION|{Question.get()}|{";".join([answer.get() for answer in AnswersContent])}|{correct}|{points}|{time}"
+                        msg=f"ADD_QUESTION|{Question.get()}|{';'.join([answer.get() for answer in AnswersContent])}|{correct}|{points}|{time}"
                         send(sock,msg)
                         try:
                             response=serverQueue.get(block=True,timeout=5)
