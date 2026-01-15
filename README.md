@@ -66,7 +66,7 @@ Kod został poprawiony zgodnie z sugestiami `make lint` oraz przetestowany przy 
 
 1. Klonowanie repozytorium:
 ```bash
-git https://github.com/lukaszwlkp/Kahoot-sieciowy-quiz
+git clone https://github.com/lukaszwlkp/Kahoot-sieciowy-quiz
 cd Kahoot-sieciowy-quiz
 ```
 
